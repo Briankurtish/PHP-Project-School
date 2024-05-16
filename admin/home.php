@@ -41,7 +41,7 @@
 <body>
     <div class="nav">
         <div class="logo">
-            <p><a href="home.php">Product Store</a> </p>
+            <a href="home.php"><img class="logoImg" src="images/logo(1).png" alt="logo" /></a>
         </div>
 
         <div class="right-links">
@@ -67,7 +67,7 @@
     </div>
     <main>
 
-       <div class="main-box top">
+       <!-- <div class="main-box top">
           <div class="top">
             <div class="box">
                 <p>Hello <b><?php echo $res_Uname ?></b></p>
@@ -78,7 +78,7 @@
                 <p align="center"><b><?php echo $productCount; ?></b></p>
             </div>
             
-          </div>
+          </div> -->
 
           
         <table class="table table-striped">

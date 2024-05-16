@@ -84,9 +84,11 @@ body{
     line-height: 60px;
     z-index: 100;
 }
-.logo{
-    font-size: 25px;
-    font-weight: 900;
+
+
+.logoImg{
+    width: 50px;
+    height: 20px;
     
 }
 .logo a{

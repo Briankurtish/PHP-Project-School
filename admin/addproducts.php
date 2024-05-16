@@ -27,7 +27,7 @@
 <body>
     <div class="nav">
         <div class="logo">
-            <p><a href="home.php">Product Store</a> </p>
+            <a href="home.php"><img class="logoImg" src="images/logo(1).png" alt="logo" /></a>
         </div>
 
         <div class="right-links">
@@ -93,10 +93,10 @@
             <div class="field input">
                 <label for="productType">Type:</label>
                 <select id="productType" name="productType" required>
-                    <option value="Iphone">Iphone</option>
-                    <option value="Samsung">Samsung</option>
-                    <option value="MacBook">MacBook</option>
-                    <option value="Ipad">Ipad</option>
+                    <option value="Meals">Meals</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Starters">Starters</option>
+                    <option value="Desert">Desert</option>
                     <!-- Add more options as needed -->
                 </select>
             </div>

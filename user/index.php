@@ -35,7 +35,7 @@
          
                 }
                 if(isset($_SESSION['valid'])){
-                    header("Location: home.php");
+                    header("Location: landing.html");
                 }
               }else{
 

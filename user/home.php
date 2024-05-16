@@ -59,9 +59,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="test.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <title>Home</title>
+    <title>Menu</title>
 
 
 
@@ -103,7 +104,7 @@
 <body>
     <div class="nav">
         <div class="logo">
-            <p><a href="home.php">Product Store</a> </p>
+            <a href="home.php"><img class="logoImg" src="images/logo(1).png" alt="logo" /></a>
         </div>
 
         <div class="right-links">
@@ -133,10 +134,10 @@
             <div class="">
                 <p><b>Filter: &nbsp; &nbsp; </b> <select id="productType" name="productType" required>
                     <option value="All">All</option>
-                    <option value="Iphone">Iphone</option>
-                    <option value="Samsung">Samsung</option>
-                    <option value="MacBook">MacBook</option>
-                    <option value="Ipad">Ipad</option>
+                    <option value="Meals">Meals</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Starters">Starters</option>
+                    <option value="Desert">Desert</option>
                 </select></p>
             </div>
             <div class="box">
@@ -147,7 +148,7 @@
 
           
           <div class="products">
-        <h2>Featured Products</h2>
+        <h2>Menu Items</h2>
         <!-- Display products here -->
         <div class="container">
             <div class="row">

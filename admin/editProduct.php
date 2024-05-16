@@ -99,10 +99,10 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
                 <div class="field input">
                     <label for="productType">Type:</label>
                     <select id="productType" name="productType" required>
-                        <option value="Iphone" <?php if($product['productType'] == 'Iphone') echo 'selected'; ?>>Iphone</option>
-                        <option value="Samsung" <?php if($product['productType'] == 'Samsung') echo 'selected'; ?>>Samsung</option>
-                        <option value="MacBook" <?php if($product['productType'] == 'MacBook') echo 'selected'; ?>>MacBook</option>
-                        <option value="Ipad" <?php if($product['productType'] == 'Ipad') echo 'selected'; ?>>Ipad</option>
+                        <option value="Meals" <?php if($product['productType'] == 'Meals') echo 'selected'; ?>>Meals</option>
+                        <option value="Drinks" <?php if($product['productType'] == 'Drinks') echo 'selected'; ?>>Drinks</option>
+                        <option value="Starters" <?php if($product['productType'] == 'Starters') echo 'selected'; ?>>Starters</option>
+                        <option value="Desert" <?php if($product['productType'] == 'Desert') echo 'selected'; ?>>Desert</option>
                         <!-- Add more options as needed -->
                     </select>
                 </div>
